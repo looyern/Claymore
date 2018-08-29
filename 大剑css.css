@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+}
+#container{
+    border: 1px solid lightcyan;
+    margin-left: 20px;
+    margin-right: auto;
+    background-image: url("E:/前端/Claymore/iamges/01.jpg");
+    background-attachment: fixed;
+}
+/*轮播样式*/
+#img_box{    
+    padding-left: 10px;
+    width: 1300px;
+    height: 800px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.img{
+    width: 100%;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+}
+#top_text{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+#text_box{
+    position: absolute;
+    top: 350px;
+    left: 390px;
+    font-size: 36px;
+    color: lightsteelblue;
+}
+#claymore{
+    text-align: center;
+}
+
+#prev,#next{
+    position: absolute;
+    top: 400px;    
+    outline: none;
+    opacity: 0.7;
+}
+#prev{
+    left: 41px;
+}
+#next{  
+    right: 18px;
+}
+/*主角界面*/
+#charactor1 img,#charactor2 img{
+    width: 500px;
+    height: auto;
+}
+/*若为第五、六张图片设置float属性，则后面的div元素将不会独占下一行*/
+#charactor1,#charactor2{
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 5px #cccccc;
+    margin-left: 50px;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+#charactor2{
+    margin-left: 200px;    
+}
+.main_character p{
+    text-align: center;
+    margin-top: 10px;
+}
+#charactor1 hr,#charactor2 hr{
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.alink{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 5px tan;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100px;
+}
+.alink:visited{
+    color:blueviolet;
+}
+.alink:hover{
+    color: snow;
+}
+#middle,footer{
+    text-align: center;
+    height: 100px;
+    background-color: grey;
+    margin: 30px auto;
+    width: 1300px;   
+}
+#middle hr{
+    width: 500px;
+    margin-left: 400px;
+}
+#middle p,footer{
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+footer{
+    font-size: 1.8em;
+    height: 100px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px rgb(68, 108, 167);
+}
+.title{
+    text-align: center;
+}
+/*四个介绍页面样式*/
+.introduce{
+    display: inline-block;
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px #cccccc;
+    line-height: 2;
+    margin-left: 50px;
+    margin-bottom:10px;
+    /*让两个div以第一行对齐，而非默认值baseline(最后一行)对齐*/
+    vertical-align: top;
+}
+#charactor,#animation{
+    margin-left: 200px;
+}
+#charactor a{
+    margin-top: 40px;
+}
+/*动画列表*/
+#animation{
+    overflow-y: scroll;   
+}
+#ibox{
+    padding-left: 20px;
+}
+.box{
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    border: 1px solid lightyellow;
+    
+    padding: 2px;    
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    
+}
+.box:hover{
+    box-shadow: 5px 5px 10px rgb(130, 80, 170);
+}
